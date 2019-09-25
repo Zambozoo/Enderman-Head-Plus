@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #minecraft:player_heads{Owner:{Name:"MHF_Enderman"}} run function endermanhead:get_rot/skull_0/dis_12
+execute unless block ~ ~ ~ #minecraft:opaque positioned ^ ^ ^13 run function endermanhead:cast/extended/cast_12
