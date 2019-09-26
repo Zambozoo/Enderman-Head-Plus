@@ -47,7 +47,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{SkullOwner:\"MHF_Enderman\"}"
+                            "tag": "{SkullOwner:\"MHF_Enderman\",display:{Name:'{\"text\":\"Enderman Head\",\"italic\":\"false\",\"color\": \"white\"}'}}"
                         }
                     ]
                 }
