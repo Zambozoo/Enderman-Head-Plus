@@ -2,4 +2,4 @@ execute if block ~ ~ ~ #minecraft:player_heads{Owner:{Name:"MHF_Enderman"}} run 
 
 execute positioned ~ ~-2.5 ~ run function endermanhead:check_entity/far
 
-execute unless block ~ ~ ~ #minecraft:opaque at @s positioned ^ ^ ^11.5 run function endermanhead:cast/cast_11
+execute unless block ~ ~ ~ #minecraft:opaque at @s anchored eyes positioned ^ ^ ^11.5 run function endermanhead:cast/cast_11

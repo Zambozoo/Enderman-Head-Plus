@@ -10,7 +10,7 @@ execute unless block ^ ^ ^0.5 #minecraft:player_heads{Owner:{Name:"MHF_Enderman"
 
 execute positioned ^ ^ ^3.75 run function endermanhead:check_entity/cast_check
 execute positioned ^ ^ ^11.25 run function endermanhead:check_entity/cast_check
-
+ 
 execute if entity @s[tag=run_cast] positioned ^ ^ ^0.5 run function endermanhead:cast/cast_0
 
 execute unless entity @s[tag=unluck] run effect clear @s minecraft:unluck
