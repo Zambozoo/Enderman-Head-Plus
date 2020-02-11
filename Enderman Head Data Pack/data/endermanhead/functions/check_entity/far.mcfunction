@@ -1,2 +1,2 @@
-execute at @e[type=minecraft:armor_stand,distance=..1.2,nbt={ArmorItems:[{tag:{SkullOwner:{Name:"MHF_Enderman"}}}]}] positioned ~ ~2 ~ run function endermanhead:effect/skull_0
-execute at @a[distance=..1.2,nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{SkullOwner:{Name:"MHF_Enderman"}}}]}] run function endermanhead:effect/player
+execute at @e[distance=..1.2,predicate=endermanhead:wears_endermanhead_armor_stand] positioned ~ ~2 ~ run function endermanhead:effect/skull_0
+execute at @a[distance=..1.2,predicate=endermanhead:wears_endermanhead_player] run function endermanhead:effect/player
