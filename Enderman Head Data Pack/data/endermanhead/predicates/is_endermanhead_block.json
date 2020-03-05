@@ -1,7 +1,0 @@
-{
-  "condition": "minecraft:block_state_property",
-  "block": "player_head",
-  "properties": {
-    "rotation":0
-  }
-}

@@ -1,11 +1,11 @@
-# Enderman-Head-Plus
- A better version of the Enderman Head datapack.
-Download the resource pack and data pack to use.
+# Enderman Head
+> Minecraft Datapack
 
-* The data pack adds an enderman head block that powers redstone when looked at up to 16 blocks away, it also powers whatever block it is resting on.
-* The signal strength is dependent on the block's distance from the closest player who looks at it.
-* The block can also be worn by players and armor stands, and in all three forms will emit particles when looked at.
-* Players will also recieve the "Spotted" effect while being observed.
-* To use the head, place a redstone repeater at 1 tick delay followed by a redstone repeater at 4 ticks delay. This will stabilize the pulse.
+* Implements a new redstone component, the Enderman Head.
+* Adds a new advancement in the End tab.
+* Produces particles and redstone power based on the distance from the observer.
+* Endermen drop their heads exactly like Wither Skeletons.
+* Players can wear pumpkins to avoid activating them.
+* Displays effect when players, armor stands, or mobs wear it and are observed.
 
-The resource pack retextures an unused potion effect, "unluck", to show a player when they are being looked at. It also renames it to "spotted".
+* Data Pack adds functionality, Resource Pack reskins and renames the "Unluck" potion effect.
