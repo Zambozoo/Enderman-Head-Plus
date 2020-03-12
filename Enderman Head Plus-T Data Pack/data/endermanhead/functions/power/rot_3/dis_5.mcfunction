@@ -1,6 +1,5 @@
 
-setblock ~ ~ ~ minecraft:target
-setblock ~ ~ ~ minecraft:target[power=10]
+setblock ~ ~ ~ minecraft:daylight_detector[power=10]
 
 execute if block ~ ~-1 ~ #minecraft:opaque run function endermanhead:power_base/top/dis_5
 
