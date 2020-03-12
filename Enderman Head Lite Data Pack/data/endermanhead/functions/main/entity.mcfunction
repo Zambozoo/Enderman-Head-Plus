@@ -4,6 +4,7 @@
 #Run next tick
 
 execute as @e[predicate=endermanhead:wears_endermanhead_armor_stand] run tag @s add has_head
+execute as @e[predicate=endermanhead:wears_endermanhead_armor_stand2] run tag @s add has_head
 execute as @e[type=#minecraft:picks_up_loot,predicate=endermanhead:wears_endermanhead_mob] run tag @s add has_head
 execute as @a[predicate=endermanhead:wears_endermanhead_player] run tag @s add has_head
 

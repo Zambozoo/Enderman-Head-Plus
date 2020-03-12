@@ -4,4 +4,5 @@
 #Run next tick
 
 execute as @a[predicate=!endermanhead:wears_pumpkin] at @s anchored eyes run function endermanhead:check_cast
+execute as @e[type=item,nbt={Item:{id:"minecraft:player_head"}}] run function endermanhead:formathead
 schedule function endermanhead:main/5 1t
