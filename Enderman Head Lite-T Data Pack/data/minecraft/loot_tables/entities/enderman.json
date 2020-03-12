@@ -1,0 +1,102 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            },
+                            "limit": 1
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+			"rolls":1,
+			"entries":[
+				{
+					"type":"minecraft:alternatives",
+						"children":[
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:player_head",
+								"weight": 1,
+								"functions": [
+									{
+										"function": "set_name",
+										"name":
+											{
+												"italic":"false",
+												"color":"yellow",
+												"text":"Enderman Head"
+											}
+										},
+									{
+										"function": "set_nbt",
+										"tag": "{SkullOwner:\"MHF_Enderman\",display:{Name:'{\"text\":\"Enderman Head\",\"italic\":\"false\",\"color\": \"yellow\"}'}}"
+									}
+								 ],
+								"conditions":[
+									{
+										"condition":"minecraft:killed_by_player"
+									},
+									{
+										"condition":"minecraft:random_chance_with_looting",
+										"chance":0.015,
+										"looting_multiplier":0.005
+									}
+								]
+							},
+							{
+								"type": "minecraft:item",
+								"name": "minecraft:player_head",
+								"weight": 1,
+								"functions": [
+									{
+										"function": "set_name",
+										"name":
+										{
+											"italic":"false",
+											"color":"yellow",
+											"text":"Enderman Head"
+										}
+									},
+									{
+										"function": "set_nbt",
+										"tag": "{SkullOwner:\"MHF_Enderman\",display:{Name:'{\"text\":\"Enderman Head\",\"italic\":\"false\",\"color\": \"yellow\"}'}}"
+									}
+								],
+								"conditions":[
+									{
+										"condition":"minecraft:entity_properties",
+										"entity":"killer",
+										"predicate":
+											{
+												"type":"minecraft:creeper",
+												"nbt":"{powered:1b}"
+											}
+										} 
+								]
+							}
+					]
+				}
+			]
+		}
+    ]
+}
