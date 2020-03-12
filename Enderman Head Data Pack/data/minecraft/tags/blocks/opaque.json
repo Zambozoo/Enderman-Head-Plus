@@ -1,7 +1,6 @@
 {
 
 "values": [
-
 "minecraft:acacia_log",
 "minecraft:acacia_planks",
 "minecraft:acacia_wood",
@@ -251,6 +250,21 @@
 "minecraft:blast_furnace",
 "minecraft:cartography_table",
 "minecraft:target",
-"minecraft:crying_obsidian"
+"minecraft:crying_obsidian",
+"minecraft:soul_soil",
+"minecraft:nether_gold_ore",
+"minecraft:netherite_block",
+"minecraft:warped_hyphae",
+"minecraft:warped_nylium",
+"minecraft:warped_planks",
+"minecraft:warped_stem",
+"minecraft:warped_wart_block",
+"minecraft:shroomlight",
+"minecraft:crimson_hyphae",
+"minecraft:crimson_nylium",
+"minecraft:crimson_planks",
+"minecraft:crimson_stem",
+"minecraft:ancient_debris"
+
 ]
 }
