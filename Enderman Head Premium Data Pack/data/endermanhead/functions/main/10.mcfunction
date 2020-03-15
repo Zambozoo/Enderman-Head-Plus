@@ -4,4 +4,4 @@
 #Run next tick
 
 execute as @a[predicate=!endermanhead:wears_pumpkin] at @s anchored eyes run function endermanhead:check_cast
-schedule function endermanhead:main/9 1t
+schedule function endermanhead:main/11 1t

@@ -13,4 +13,4 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:player_head"}}] run function en
 execute as @e[type=minecraft:item_frame, nbt={Item:{tag:{display:{Name:'{"text":"Enderman Head","italic":"false","color": "yellow"}'}}}}] run data modify entity @s Item.tag.display.Name set value ''
 
 execute as @e[tag=has_head] run tag @s remove has_head
-schedule function endermanhead:main/0 1t
+schedule function endermanhead:main/10 1t
