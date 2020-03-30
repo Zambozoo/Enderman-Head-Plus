@@ -1,7 +1,8 @@
-execute align xyz positioned ~0.75 ~0.75 ~0.5 run function endermanhead:effect/skull_0
+execute align xyz positioned ~0.75 ~0.75 ~0.5 run function endermanhead:effect/block
 
-setblock ~ ~ ~ minecraft:daylight_detector[power=11]
+setblock ~ ~ ~ minecraft:target
+setblock ~ ~ ~ minecraft:target[power=11]
 
-execute if block ~1 ~ ~ #minecraft:opaque run function endermanhead:power_base/west/dis_4
+execute if block ~1 ~ ~ #minecraft:opaque run function endermanhead:power/base/west/dis_4
 
-setblock ~ ~ ~ minecraft:player_wall_head[facing=west]{Owner:{Name:"MHF_Enderman"}}
+setblock ~ ~ ~ minecraft:player_wall_head[facing=west]{SkullOwner:{Name:"MHF_Enderman"}}

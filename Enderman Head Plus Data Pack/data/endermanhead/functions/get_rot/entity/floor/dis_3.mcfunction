@@ -1,4 +1,4 @@
-execute align xyz positioned ~0.5 ~0.5 ~0.5 run function endermanhead:effect/skull_0
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run function endermanhead:effect/block
 
 
 execute if block ~ ~ ~ minecraft:player_head[rotation=0] run function endermanhead:power/rot_0/dis_3

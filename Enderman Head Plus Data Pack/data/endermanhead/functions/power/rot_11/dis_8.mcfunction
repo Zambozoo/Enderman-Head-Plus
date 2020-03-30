@@ -1,7 +1,8 @@
 
 
-setblock ~ ~ ~ minecraft:daylight_detector[power=7]
+setblock ~ ~ ~ minecraft:target
+setblock ~ ~ ~ minecraft:target[power=7]
 
-execute if block ~ ~-1 ~ #minecraft:opaque run function endermanhead:power_base/top/dis_8
+execute if block ~ ~-1 ~ #minecraft:opaque run function endermanhead:power/base/top/dis_8
 
-setblock ~ ~ ~ minecraft:player_head[rotation=11]{Owner:{Name:"MHF_Enderman"}}
+setblock ~ ~ ~ minecraft:player_head[rotation=11]{SkullOwner:{Name:"MHF_Enderman"}}

@@ -3,5 +3,5 @@
 #Format Item Frames with "unnamed" Enderman Heads
 #Run next tick
 
-execute as @a[predicate=!endermanhead:wears_pumpkin] at @s anchored eyes run function endermanhead:check_cast
+execute as @a[predicate=!endermanhead:wears_pumpkin] at @s anchored eyes run function endermanhead:cast/check
 schedule function endermanhead:main/1 1t
