@@ -1,3 +1,6 @@
+#Remove Scoreboard
+scoreboard objectives remove enderman_head
+
 #Disable
 datapack disable "file/Enderman Head Plus Data Pack"
 

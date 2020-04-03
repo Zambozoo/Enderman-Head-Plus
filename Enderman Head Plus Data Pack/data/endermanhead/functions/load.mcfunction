@@ -1,2 +1,4 @@
+scoreboard objectives add enderman_head dummy
+scoreboard players set tick enderman_head 0
 #Display message
 tellraw @a ["",{"text":"["},{"text":"Enderman Head Plus Datapack","color":"dark_purple"},{"text":"] Loaded! Adds the following:\n- Endermen now drop their heads 1.5% of the time or when blown up by a super charged creeper.\n- Placed endermen heads produce particles and emit a redstone signal every redstone tick when looked at, the power of which varies with player distance to the head.\n- The heads can be worn by armor stands and players, and similarly emit particles when looked at.\n- Players also recieve an effect that shows they are being observed."}]

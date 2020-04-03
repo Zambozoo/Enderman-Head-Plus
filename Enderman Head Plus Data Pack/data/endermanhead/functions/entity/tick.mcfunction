@@ -14,8 +14,8 @@ execute as @a[predicate=endermanhead:wears_endermanhead_player] run tag @s add h
 
 execute as @a[predicate=!endermanhead:wears_pumpkin] at @s anchored eyes run function endermanhead:cast/entity/check
 
-execute as @e[type=item,nbt={Item:{id:"minecraft:player_head"}}] run function endermanhead:formathead
+execute as @e[type=item,nbt={Item:{id:"minecraft:player_head"}}] run function endermanhead:entity/formathead
 execute as @e[type=minecraft:item_frame, nbt={Item:{tag:{display:{Name:'{"text":"Enderman Head","italic":"false","color": "yellow"}'}}}}] run data modify entity @s Item.tag.display.Name set value ''
 
 execute as @e[tag=has_head] run tag @s remove has_head
-schedule function endermanhead:main/0 1t
+#schedule function endermanhead:main/0 1t
