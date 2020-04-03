@@ -1,7 +1,9 @@
-#clear unluck effect
+#Clear unluck effect
+#Add has_head tag to all entities wearing enderman head
 #As each player not wearing a pumpkin, run cast_check
 #Format Enderman Head names
 #Format Item Frames with "unnamed" Enderman Heads
+#Remove has_head tag
 #Run next tick
 
 effect clear @a[tag=!spotted] minecraft:unluck
